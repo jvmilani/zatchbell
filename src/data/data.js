@@ -1,0 +1,965 @@
+export default [
+    {
+        "Earth": {
+            "BookColor": "Rosa escuro",
+            "type": "Espadas",
+            "Ataque": [
+                {
+                    "Sorusen": "Asu pode lançar a lâmina de sua espada com este poder."
+                },
+                {
+                    "Jerudo Ma Sorudo": "Uma misteriosa energia circula em torna de Asu, que com um balanço de sua espada pode criar ondas de choque que investem contra o inimigo."
+                },
+                {
+                    "Godima Sorudo": "Um poder que concentra energia em sua espada e permite lançar ondas cortantes com a pressão formada."
+                },
+                {
+                    "Jan Ji Sorudo": "poder de Asu que cria uma espada negra."
+                },
+                {
+                    "Gyan Bagyamu Sorudon": "Um dos poderes mais fortes de Asu, invoca uma grande espada de duas mãos."
+                },
+                {
+                    "Varusere Ozu Maaru Sorudon": "Várias lâminas são lançadas ao inimigo."
+                },
+                {
+                    "Shin Varusere Ozu Maaru Sorudon": "Versão mais forte do Varusere Ozu Maaru Sorudon."
+                }
+            ],
+            "Defesa": [
+                {
+                    "Baruborusu Sorudon": "Poder que invoca uma grande espada que Earth pode usar livremente."
+                }
+            ],
+            "Assistencia": [
+                {
+                    "Gou Sorudo": "O segundo poder de fortalecimento da espada de Asu. Ele golpeia multiplamente com sua espada brilhante até o brilho se atenuar."
+                },
+                {
+                    "Borusen": "O movimento do corpo de Asu é transformado em uma ilusão."
+                },
+                {
+                    "Uru Soruto": "Este poder aumenta a velocidade de Asu."
+                }
+            ]
+        },
+        "Riya": {
+            "BookColor": "Verde escuro",
+            "type": "Corpo",
+            "Ataque": [
+                {
+                    "Garubanio": "O chifre na cabeça de Riya cresce a uma enorme proporção e ataca o inimigo."
+                },
+                {
+                    "Ganzu Niosen": " Riya dispara vários raios de luz da sua barriga."
+                },
+                {
+                    "Garudoruku Nioruku": "Riya gira em alta velocidade na direção do adversário."
+                },
+                {
+                    "Barudo Niosen": "Riya disparar balas alongadas de sua barriga. As balas abrem fogo e muitos lasers vão no alvo."
+                },
+                {
+                    "Shaou Nidoruku": "Este poder convoca uma criatura enrome e destrutiva."
+                }
+            ],
+            "Defesa": [
+                {
+                    "Raajia Shirunio": "Riya cresce e sua bariga fica como um escudo"
+                }
+            ],
+            "Trasnformacao": [
+                {
+                    "Nidoruku": "Riya transforma em uma versão de si do próprio feito de pedra."
+                }
+            ],
+            "Assistencia": [
+                {
+                    "Gou Amuruku": "O seu braço torna a crescer grandes proporções."
+                },
+                {
+                    "Pikku Garunio": "Riya descarga uma lâmina afiada de energia a partir de seu braço."
+                },
+                {
+                    "Gou Niodoruku": "Este poder transforma o corpo de Riya ficando maior e mais forte."
+                }
+            ]
+        },
+        "Clear Note": {
+            "BookColor": "Cinza Prateado.",
+            "type": "Aniquilação",
+            "Ataques": [
+                {
+                    "Radisu": "Bola de energia que aniquila (apaga) tudo que acerta, quando o alvo é muito resistente ela apenas reduz sua massa, caso contrario ele simplesmente desaparece."
+                },
+                {
+                    "Raajia Radisu": "Uma explosão de 'Radisu' com um poder de aniquilação GIGANTESCO."
+                },
+                {
+                    "Ranzu Radisu": "Clear cria uma enorme lança com um enorme poder de aniquilação."
+                },
+                {
+                    "Giiru Ranzu Radisu": "Um 'Ranzu Radisu' semelhante a uma âncora e muito mais poderoso."
+                },
+                {
+                    "Shin Kuria Seunousu": "Um enorme anjo feito de energia de aniquilação, cujo poder é grande suficiente para apagar um Baou Zakeruga.A unica forma de destruilo é quebrando a pequena esfera que carrega em seu peito."
+                },
+                {
+                    "TeoRadisu": "Um Radisu com maior poder de aniquilação."
+                },
+                {
+                    "Shin Kuria Seunousu Baadorerugo": "Clear convoca um gigantesco passaro feito de energia de aniquilação, seu poder é absurdamente gigante, Baadorerugo também pode se auto destruir, empedindo que o alvo possa fugir."
+                },
+                {
+                    "Shin Kuria Seunousu Zarefedoora": "Clear convoca um gigantesco canhão com varios canos onde cada um lança poderosíssimas rajadas de aniquilação, o canhão também pode se alto destruir indo ele mesmo acertar o alvo.Uma especie de comandante comanda o canhão obedecendo as ordens dadas por Clear."
+                },
+                {
+                    "Dioga Ranzu Radisu": "Um 'Razu Radisu' em sua forma mais poderosa."
+                },
+                {
+                    "Ba Ranzu RadisuAssistencia": " Uma bola onde sai varias lanças de aniquilação, muito poderosas."
+                },
+                {
+                    "Fei Ganzu Birerugo": "Dezenas de raios de aniquilção em forma de enormes cetas muito fortes e incrivelmente rápidas."
+                }
+            ],
+            "Assistencia": [
+                {
+                    "Supurifo": "Uma explosão de 'Radisu' que aniquila (apaga) outras magias."
+                },
+                {
+                    "Amu Du Supurifo": "Um 'Supurifo' mais forte, onde cria duas gigantes mãos que aniquialam outras magias."
+                },
+                {
+                    "Ba Supurifo": "Um 'Supurifo' mais forte em forma de explosão."
+                },
+                {
+                    "Ria Uruku": "Clear ganha uma super velocidade."
+                }
+            ],
+            "Defesa": [
+                {
+                    "Kuea Supurifo": "Um poderoso escudo de aniquilação."
+                }
+            ]
+        },
+        "Koral Q": {
+            "BookColor": "Habanero",
+            "type": "Upgrade",
+            "Ataque": [
+                {
+                    "Roboruga": "Coral Q dispara raios de fogo pelas antenas sobre sua cabeça."
+                },
+                {
+                    "Roboruku": "Poder que transforma Coral Q em um robô gigante, mas não da muita força."
+                },
+                {
+                    "Bizamu Roboruga": " Usando esse poder Coral Q dispara dois misseis de fogo que atacam o oponente."
+                },
+                {
+                    "Muromu Roboruku": "Coral Q se transforma em um robo gigatesco feito totalmente de borracha"
+                },
+                {
+                    "Digou Roboruku": "Coral Q se transforma em um motista de uma moto muito rapida."
+                },
+                {
+                    "Gigano Roboruga": " A antena sobre a cabeça de Coral Q e transformada, e raios de fogo mais fortes são disparados no oponente."
+                }
+            ],
+            "Defesa": [
+                {
+                    "Ra Robogarugu": "Coral Q se transforma em um robô que serve como escudo de defesa."
+                }
+            ],
+            "Assistencia": [
+                {
+                    "Ganzirudo Roburon": "Coral Q torna-se um robô alienigina voador que late, e opera numerosos escudos."
+                }
+            ]
+        },
+        "Nya": {
+            "BookColor": "Rosa Claro",
+            "type": "Fúria",
+            "Ataques": [
+                {
+                    "Peruk": "Nya aumenta seu tamanho, tornando-se maior. O mamodo é capaz de lançar espinhos no adversário."
+                },
+                {
+                    "Kyadopan": "Golpe cortante que ataca por meio de sua garra."
+                }
+            ],
+            "Assistencia": [
+                {
+                    "Baikal/Baitoru": "Nya é capaz de se inflar como um balão."
+                }
+            ],
+            "Imobilizacao": [
+                {
+                    "Paperuto": "Nya lança um raio no oponente, fazendo-o imitar todos os seus movimentos."
+                }
+            ]
+        },
+        "Purio": {
+            "BookColor": "Azul Turquesa",
+            "type": "Saliva",
+            "Ataque": [
+                {
+                    "Jobido": "Purio cospe uma bola de ácido no inimigo"
+                },
+                {
+                    "Gigano Jobido": "Purio cospe um jato de ácido no inimigo"
+                },
+                {
+                    "Dioga Jobido": "Versão mais forte do Gigano Jobido"
+                }
+            ],
+            "Defesa": [
+                {
+                    "Mokerudo": "Purio espele fumaça de sua boca."
+                },
+                {
+                    "Nyureido": "Purio cospe óleo no chão para que o inimigo escorregue."
+                }
+            ],
+            "Imobilizacao": [
+                {
+                    "Dareido": "Purio cospe uma tinta azul que endurece e imobiliza o inimigo."
+                },
+                {
+                    "Poreido": "Purio cospe um veneno paralizante."
+                },
+                {
+                    "Mosureido": "Purio expele uma fumaça venenosa que causa convulsões no inimigo."
+                },
+                {
+                    "Amireido": "Sua saliva se torna uma rede inquebrável."
+                }
+            ]
+        },
+        "Ted": {
+            "BookColor": "Verde",
+            "type": "Boxe",
+            "Ataque": [
+                {
+                    "Makishimanu Naguru": "Ted é envolto por fogo, e se fortalece, criando uma grande versão sua, na qual pode controlar."
+                }
+            ],
+            "Assistencia": [
+                {
+                    "Doraguna naguru": "ignição do fortalecimento de ted"
+                },
+                {
+                    "Sekan Naguru": "Através deste poder, Ted adquire super velocidade e força."
+                },
+                {
+                    "Sazu Naguru": "Uma aura é criada, aumentando a força e velocidade de Ted e protegendo até certo ponto."
+                },
+                {
+                    "Forusu Naguru": "O poder aumenta absurdamente o poder de Ted e faz com que seu corpo brilhe e que seu cabelo cresça."
+                },
+                {
+                    "Fifisu Naguru": "Quinto poder de fortalecimento de Ted."
+                },
+                {
+                    "Doragunon Dionaguru": "Poder de super-fortalecimento de Ted."
+                }
+            ]
+        },
+        "Baransha": {
+            "BookColor": "Amarelo Mostarda",
+            "type": "Furtividade",
+            "Ataques": [
+                {
+                    "Wokeru": "Baransha dispara ondas de energia em forma de anéis."
+                },
+                {
+                    "Okerga": "Uma versão mais poderosa de wokeru."
+                }
+            ],
+            "Assistencia": [
+                {
+                    "Doruku": "O corpo de Baransha e envolvido em uma armadura."
+                },
+                {
+                    "Boruk": "Um holograma de Baransha aparece para confundir o oponente."
+                },
+                {
+                    "GoRiaruk": "Baransha se torna invisível."
+                },
+                {
+                    "Gigano Gadoruk": "Baransha é envolvida numa armadura coberta por espinhos."
+                }
+            ]
+        },
+        "Danny": {
+            "BookColor": "Roxo",
+            "type": "Auto-Recuperação",
+            "Assistencia": [
+                {
+                    "Jioruk": "Danny se recupera completamente."
+                }
+            ]
+        },
+        "Cherish": {
+            "BookColor": "Amarelo Pálido",
+            "type": "Cristais",
+            "Ataque": [
+                {
+                    "Kofaru": "Cherish lança um cristal no inimigo."
+                },
+                {
+                    "Gou Kofaru": "Cherish dispara um enorme cristal verde de ambas as mãos."
+                },
+                {
+                    "Gare Kofaru": "Cristais são descarregados a partir de seu alcance."
+                },
+                {
+                    "Gigano Kofaru": "Versão maior e mais forte do Kofaru."
+                },
+                {
+                    "Dioga Kofarudon": "Cherish dispara um cristal maciço no inimigo."
+                },
+                {
+                    "Ganzu Gou Kofaruga": "Atira muitos cristais grandes em seu inimigo."
+                },
+                {
+                    "Guraado Ma Kofaru": "Uma poderosa arma, semelhante a uma Sniper, que dispara tiros de cristais muito poderosos."
+                },
+                {
+                    "Shin Guraado Ganzu Kofaru": "Um 'Guraado Ma Kofaru' muito melhorado e poderoso, que com o auxilio de pequenos canhões flutuantes que atiram cristais também."
+                }
+            ]
+        },
+        "Momon": {
+            "BookColor": "Rosa Salmão",
+            "type": "Artimanha",
+            "Ataque": [
+                {
+                    "Amuron": "O braço de Momon é esticado."
+                }
+            ],
+            "Assistencia": [
+                {
+                    "Minfei Mimirugu": "As orelhas de Momon crescem e giram como uma hélice, então Momon pode voar"
+                },
+                {
+                    "Mimiruo Mifanon": "Momon lança anéis de suas orelhas, prendendo coisas."
+                },
+                {
+                    "Fei Mirurugu": "Momon pode saltar a grandes alturas"
+                },
+                {
+                    "Agurarugu": "Momon pode atravessar objetos solidos."
+                }
+            ],
+            "Imobilizacao": [
+                {
+                    "Ora Norozio": "Momon faz o inimigo ficar em câmera lenta por 8 segundos."
+                }
+            ]
+        },
+        "Wiseman": {
+            "BookColor": "Branco",
+            "type": "Elementos/Explosões",
+            "Ataque": [
+                {
+                    "Dosuderusu": "Uma esfera de energia é liberada.Quando encosta em algo explode."
+                },
+                {
+                    "Unodesuzoru": "Cria uma rachadora na terra, que faz ondas de lavas sairem."
+                },
+                {
+                    "Kirudesuto": "Wiseman invoca um grande dragão , que pode engolir grande quantidades de poder."
+                }
+            ]
+        },
+        "Laila": {
+            "BookColor": "Azul escuro",
+            "type": "Luas",
+            "Ataque": [
+                {
+                    "Miguron": "Uma lua é disparada como seta explosiva."
+                },
+                {
+                    "Oru Miguruga": "A lua do bastão de Laila cresce,gira e ela pode controlar."
+                },
+                {
+                    "Raja Migsen": "A lua do bastão de Laila estica e vai ate o inimigo."
+                },
+                {
+                    "Miberna Ma Miguron": "Varias luas aparecem e laila pode controlar para imobilizar e atacar o inimigo."
+                }
+            ],
+            "Defesa": [
+                {
+                    "Mishirudo": "Uma lua é usada como um escudo."
+                }
+            ]
+        },
+        "Bari": {
+            "BookColor": "Azul Escuro",
+            "type": "Vortex",
+            "Ataque": [
+                {
+                    "Zonis": "Bari gera um tornado com suas antenas."
+                },
+                {
+                    "Gigano Zonis": "Um redemoinho de energia é criado."
+                },
+                {
+                    "Aradomu Gouzonis": "Um forte redemoinho de energia similar ao de 'Gigano Zonisu'."
+                },
+                {
+                    "Dioga Zonisdon": "Uma versão mais poderosa do 'Gigano Zonis'."
+                },
+                {
+                    "Shin Doruzonis": "Vários Doruzonis ataca o inimigo."
+                }
+            ],
+            "Defesa": [
+                {
+                    "Zorushirudo": "Poder de defesa que protege de ataques frontais."
+                },
+                {
+                    "Amu Ra Zoruku": "A mão de Bari se torna incrívelmente forte, capaz de segurar o poder do inimigo e lança-lo de volta."
+                },
+                {
+                    "Gou Zorushirudo": "Um 'Zorushirudo' mais poderoso e maior."
+                }
+            ],
+            "Assistencia": [
+                {
+                    "Garuzonis": "Bari se lança em alta velocidade é capaz de planar."
+                },
+                {
+                    "Doruzonis": "Um tornado gira em espiral envolta da mão de Bari e o deixa capaz de atacar como um broca."
+                },
+                {
+                    "Digaru Doruzonisu": "Uma versão mais poderosa de 'Garuzonis' que permite que Bari esmague objetos ao se lançar em choque sobre eles."
+                }
+            ]
+        },
+        "Yopopo": {
+            "BookColor": "Verde",
+            "type": "Musica",
+            "Ataque": [
+                {
+                    "Miker/Mikeru": "Yopopo solta uma tempestade musical no inimigo"
+                },
+                {
+                    "DoreMiker/DoreMikeru": "Uma gigante onda musical sai da nota de música na roupa de Yopopo.Uma versão mais forte do Miker."
+                }
+            ],
+            "Assistencia": [
+                {
+                    "Shin Yopopoi Topopoi Supopopoi": "Controla os movimentos do inimigo através da música e da dança."
+                }
+            ]
+        },
+        "Reycom": {
+            "BookColor": "Azul-Cobalto",
+            "type": "Gelo",
+            "Ataque": [
+                {
+                    "Gikor": "Lança estilhaços de gelo no adversário."
+                },
+                {
+                    "Gigano gicor": "versão mais forte do Gikor."
+                },
+                {
+                    "Gikor Garugo/ Gikoru Garugo": "icecicles Grande aparecem sob o adversário"
+                },
+                {
+                    "Lagikor Fang/Ragikoru Fango": "Um lobo de gelo gigante é convocado para o ataque do adversário"
+                },
+                {
+                    "Oruga Gikor/Oruga Gikoru": "Invoca um pingente grande torcida na palma da Reycom."
+                }
+            ],
+            "Imobilizacao": [
+                {
+                    "Raja Freezudo/Raja Furizudo": "Uma versão mais poderosa do Freezudo"
+                },
+                {
+                    "Freezudo": "Ele congela o adversário e este não pode se mover."
+                }
+            ],
+            "Defesa": [
+                {
+                    "Gishield/Gishirudo": "Um grande escudo feito de gelo aparece em frente da Reycom"
+                }
+            ]
+        },
+        "Penny": {
+            "BookColor": "Laranja",
+            "type": "Água",
+            "Ataque": [
+                {
+                    "Akuru": "Penny lança um jato de água de suas mãos."
+                },
+                {
+                    "Ganzu Akuru": "Penny lança esferas d'água a alta velocidade."
+                },
+                {
+                    "Aku Supureido": "Reverte um ataque que foi previamente absorvido com o poder 'Arshirudo'"
+                },
+                {
+                    "Akuruga": "Um jato de água em espiral é lançado de sua mão."
+                },
+                {
+                    "Akuru Kiroro": "Lâminas de água cortantes são lançadas no inimigo"
+                },
+                {
+                    "Suou Giakuru": "Poder mais poderoso de Paty, cria um grande dragão,similar ao 'Bao zakeruga', feito de água."
+                },
+                {
+                    "Shin Suou Giakuru": "Um 'Suou Giakuru' mais poderoso."
+                }
+            ],
+            "Defesa": [
+                {
+                    "Ashirudo/Arshield": "Um escudo feito de água é criado para absorver ataques."
+                }
+            ],
+            "Imobilizacao": [
+                {
+                    "Oruda Akuron": "Cria múltiplos jatos de água que circundam o oponente não permitindo que ele se mova. Paty também pode controlá-los e usá-los como chicote."
+                }
+            ],
+            "Assistencia": [
+                {
+                    "Akuruk": "Poder que cria grandes garras de água nas mãos e nos pés de Penny. É possível também lançar poderosos arcos de água com este poder."
+                }
+            ]
+        },
+        "Zeno": {
+            "BookColor": "Prata",
+            "type": "Trovão",
+            "Ataque": [
+                {
+                    "Zakeru": "Zeno solta um trovão de sua mão"
+                },
+                {
+                    "Zakeruga": "Um mais poderoso Zakeru é disparado de sua mão"
+                },
+                {
+                    "Teo Zakeru": "Uma versão mais poderosa do Zakeruga."
+                },
+                {
+                    "Raajya Zakeru": "Um amplo campo de eletricidade rodeia o ataque do e o inimigo."
+                },
+                {
+                    "Jauro Zakeruga": "Zeno cria um anel de eletricidade,onde vários raios saiem dele."
+                },
+                {
+                    "Barugirudo Zakeruga": "Um tremendo trovão cai em cima do inimigo."
+                },
+                {
+                    "Sorudo Zakeruga": "Poder que cria uma varinha,que vira uma espada elétrica."
+                },
+                {
+                    "Ganreizu Zakeru": "Tiros multiplos do Zaker."
+                },
+                {
+                    "Redo Dirasu Zakeruga": "Zeno cria um io-io com lâminas gigantescas e as dispara no inimigo."
+                },
+                {
+                    "Jigadirasu Uru Zakeruga": "O Poder mais forte do Zeno,onde o Zeno invoca um 'Deus do Trovão' que dispara um poderoso raio de seu peito."
+                },
+                {
+                    "Zeo Zakeruga": "Zeno cria um poder similar ao Baou Zakeruga, mas é feito de trovão."
+                },
+                {
+                    "Zakeruga Barjurom": "Uma onda de eletricidade ataca o inimigo."
+                }
+            ]
+        },
+        "Kid": {
+            "BookColor": "Azul Acizentado",
+            "type": "Canhão",
+            "Ataque": [
+                {
+                    "Zegaru": "Um pequeno canhão aparece na boca de Kid e atira um raio de energia."
+                },
+                {
+                    "Zerusen": "A mão de Kid vira uma mão-foguete e acerta o inimigo."
+                },
+                {
+                    "Zegaruga": "Um 'zegaru' mais forte."
+                },
+                {
+                    "AmuZegaru": "o Braço de Kid se transforma em um punho gigante gigante e acerta o inimigo."
+                },
+                {
+                    "Koboruku": "A boca de Kid fica semelhante a um escada, e de dentro saem Kids menores que podem bater muito no inimigo."
+                },
+                {
+                    "Ganzu Zegaru": "Kid posiciona seus braços de forma a criar uma arma similar a uma metralhadora."
+                },
+                {
+                    "Rajia Zerusen": "Um grande foguete em forma de punho é disparado contra o oponente."
+                },
+                {
+                    "Gigano Zegaru": "Um Zegaruga mais poderoso"
+                },
+                {
+                    "Mikor Ma Zegaruga": "Um grande anjo de metal é invocado a partir do poder de Ki"
+                }
+            ],
+            "Assistencia": [
+                {
+                    "Mikor Shin Zegaruga": "uma versão ultra poderosa do Mikor Ma Zegaruga"
+                },
+                {
+                    "Zeburuku": "Kid pode separar seu tronco de suas pernas."
+                }
+            ],
+            "Defesa": [
+                {
+                    "Zeshirudo": "O grande braço de um Deus ou demônio é invocado para proteger Kid."
+                }
+            ]
+        },
+        "Zofis": {
+            "BookColor": "Violeta claro",
+            "type": "Explosões",
+            "Ataque": [
+                {
+                    "Radomu": "Zofis lança uma bola explosiva de sua mão."
+                },
+                {
+                    "Teoradomu": "Zofis lança um Radomu maior, mais forte e mais rapido."
+                },
+                {
+                    "Rondo Radomu": "É invocado um chicote para Zofis, que explode em contato com qualquer coisa."
+                },
+                {
+                    "Oruga Radomu": "Um explosivo em forma de espiral, pode ser usado para manipular o fogo e magma para criar dragões."
+                },
+                {
+                    "Gigano Radomu": "Versão mais forte do Radomu, é mais forte que o Teoradom."
+                },
+                {
+                    "Dioga Teoradomu": "Versão mais forte do Teoradomu, é mais forte que o Gigano Radom."
+                },
+                {
+                    "Digan Teoradomu": "Zofis lança vários Teoradomu no adiversário, o numero de esferas explosivas soltas por essa magia pode variar."
+                }
+            ],
+            "Defesa": [
+                {
+                    "Gigarado Shirudo": "Um escudo flamejante protege Zofis de ataques."
+                }
+            ]
+        },
+        "Wonrei": {
+            "BookColor": "Roxo Real",
+            "type": "Artes Marciais",
+            "Ataque": [
+                {
+                    "Bauren": "Wonrei da um soco no oponente."
+                },
+                {
+                    "Gou Bauren": "Versão mais forte do Bauren."
+                },
+                {
+                    "Ganzu Bauren": "Tiros multiplos e rápidos do poder Bauren."
+                },
+                {
+                    "Go Redoruk": "Wonrei chuta o oponete."
+                },
+                {
+                    "Gar Redoruk": "Wonrei gira como uma broca e despedaça qualquer coisa."
+                },
+                {
+                    "Rao Diboren": "Wonrei lança um enorme tigre branco de 3 caudas."
+                },
+                {
+                    "Rofo Diboren": "Wonrei ataca com uma pata de tigre sobre o inimigo"
+                },
+                {
+                    "Goraio Diboren": "Wonrei invoca um gigantesco, tigre de 5 caudas."
+                },
+                {
+                    "Shin Goraio Diboren": "A versão mais poderosa de Goraio Diboren, com 10 caudas, patas gigantescas, laminas em suas costas e cabeça. Atravessa qualquer defesa."
+                },
+                {
+                    "Bosen": "Wonrei lança de seu punho uma esfera azul"
+                }
+            ],
+            "Defesa": [
+                {
+                    "Rerudo": "Cria um escudo, semelhante a um vidro, que protege dos ataques inimigos, porem não é muito forte."
+                },
+                {
+                    "Gou Rerudo": "Versão maior e mais poderosa do Rerudo."
+                },
+                {
+                    "Giga Ra Rerudo": "Versão do Gou Rerudo, capaz de refletir os ataques inimigos, semelhante ao Giga La Seoshi da Tia."
+                }
+            ],
+            "Assistencia": [
+                {
+                    "Redoruk": "Poder que fortalece as pernas de Wonrei, deixando-o com super velocidade."
+                },
+                {
+                    "Bauruk": "Poder de fortalecimento geral de Wonrei."
+                }
+            ]
+        },
+        "Kanchome": {
+            "BookColor": "Amarelo",
+            "type": "Transformação",
+            "Ataque": [
+                {
+                    "Dima puruk": "Cria muitas cópias fortes de Kanchomé."
+                },
+                {
+                    "Barudo Forusu": "Tia, Kanchomé e Ponygon dão força a Zatch e ele se manifesta como uma Fênix gigante feita de eletricidade, a magia deve ser pronunciada ao mesmo tempo por Kiyo, Megumi, Folgore e Kafka para funcionar"
+                }
+            ],
+            "Assistencia": [
+                {
+                    "Dika Poruku": "Uma enoreme ilusão de Kanchomé controlada por ele é invocada."
+                },
+                {
+                    "Fou Supuboruku": "Elimina a magia do oponente."
+                },
+                {
+                    "Miriaru Poruk": "Kanchomé copia o poder com a força do oponente, no que faz ele crer que Kanchomé fez esse poder, mas tudo é uma ilusão criada por ele."
+                },
+                {
+                    "Poruk": "Kanchomé é transformado no que Parco Folgore quiser."
+                },
+                {
+                    "Koporuku": "Kanchomé fica pequeninho."
+                },
+                {
+                    "Gaporuku": "Poder de transformação que dá à Kanchomé as habilidades de qualquer coisa em que ele se tranforme."
+                },
+                {
+                    "Shin Poruk": "Transforma Kanchomé no que ele quiser, e transforma o habitat em que está em um lugar imaginário criado por ele.Com esse poder, ele pode fazer o que quiser."
+                }
+            ]
+        },
+        "Brago": {
+            "BookColor": "Preto",
+            "type": "Gravidade",
+            "Ataque": [
+                {
+                    "Reis": "Uma pequena esfera de gravidade roxa que sai da mão de Brago."
+                },
+                {
+                    "Gravidon": "Um Reis com atração gravitacional que puxa o inimigo para si e explode ao entrar em contato com o inimigo."
+                },
+                {
+                    "Gigano Reis": "Um Reis maior e mais forte."
+                },
+                {
+                    "Baber Gravidon": "Brago é capaz de gravitacionar um objeto sólido e os cortar ou esmagar."
+                },
+                {
+                    "Ion Gravirei": "Um Gravirei com poder destrutivo para pulverizar grandes areas, Brago controla esse poder com os braços."
+                },
+                {
+                    "Dioga Gravidon": "Gigano Reisu maior e mais forte."
+                },
+                {
+                    "Rior Reis": "Duas ondas de gravidade de cor verde em forma de espiral que saem da mão de Brago, provavelmente mais forte que o Gigano Reis."
+                },
+                {
+                    "Oruga Reis": "Uma espiral de gravidade sai das mãos do Brago."
+                },
+                {
+                    "Dibor Ji Gravidon": "Uma enorme esfera de gravidade transparente gigantesca repleta de bolas negras gigantes, todas com uma atração gravitacional incrivelmente forte."
+                },
+                {
+                    "Nyuuborut Ma Gravirei": "Uma dupla de camadas esfera gravitacional. A esfera exterior impede o adversário de fugir, enquanto o interior esfera atrae todos os objetos para esfera interior, também prendendo o oponente e o esmagando."
+                },
+                {
+                    "Nyuuborut Shin Gravirei": "Versão melhorada do Nyuuborut Ma Gravirei, este feitiço cria uma bola de gravidade super concentrada explosiva em torno de um alvo."
+                },
+                {
+                    "Zangu Mareisu": "Brago libera um feixe de gravidade cortante pela mão."
+                },
+                {
+                    "Shin Baber Gravidon": "Uma versão mais potente e restritiva do Baber Gravidon."
+                }
+            ],
+            "Assistencia": [
+                {
+                    "Digou Gravidoku": "O corpo de Brago é enriquecido com uma gravidade-carregada que não pode ser lançada."
+                },
+                {
+                    "Amu Guranaguru": "As mãos de Brago são realçadas com força gravitacional, permitindo a combinação de um ataque físico e aumento da força gravitacional."
+                }
+            ],
+            "Defesa": [
+                {
+                    "Berudo Gravirei": "Brago cria ondas em sua mão, criando um feixe que desvia os ataques enquanto esmaga qualquer área sob a gravidade."
+                },
+                {
+                    "Kueaborutsu Gravirei": "Várias paredes negras surgem por detrás do adversário, que deixam o ataque do inimigo lento."
+                }
+            ],
+            "Imobilizacao": [
+                {
+                    "Gravirei": "Uma força gravitacional que prende o inimigo."
+                },
+                {
+                    "Borutsu Gravirei": "Uma pequena esfera é liberada com uma enorme atração gravitacional, arrastando tudo a ela dentro de uma grande distância."
+                }
+            ]
+        },
+        "Ponygon": {
+            "BookColor": "Laranja Claro",
+            "type": "Armadura",
+            "Assistencia": [
+                {
+                    "Shudoruku": "Ponygon Aumenta de tamanho, ganha super velocidade e uma armadura."
+                },
+                {
+                    "Gou Shudoruku": "Ponygon se equipa com uma armadura mais avançada e com um chifre, dando a ele, mais velocidade e força."
+                },
+                {
+                    "Dioemuru Shudoruku": "Ponygon se equipa com uma poderosa armadura, podendo controlar o fogo."
+                },
+                {
+                    "Shin Shudoruku": "A Armadura mais rápida e forte de umagon, tendo turbinas em suas costas para melhorar sua velocidade."
+                },
+                {
+                    "Barudo Forusu": "Tia, Kanchomé e Ponygon dão força a Zatch e ele se manifesta como uma Fênix gigante feita de eletricidade, a magia deve ser pronunciada ao mesmo tempo por Kiyo, Megumi, Folgore e Kafk para funcionar"
+                }
+            ]
+        },
+        "Kolulu": {
+            "BookColor": "Rosa",
+            "type": "Garras",
+            "Ataque": [
+                {
+                    "Zerusen": "Kolulu lança os braços até o inimigo"
+                },
+                {
+                    "Geo La Zerudo": "Kolulu finca as garras no solo e elas aparecem por baixo da terra em volta dela."
+                },
+                {
+                    "Raja Zerusen": "Uma versão mais forte do Zerusen com uma mão gigante."
+                },
+                {
+                    "Zeberusen": "Kolulu lança suas garras no inimigo."
+                },
+                {
+                    "Shin Raifojio": "Kolulu lança um raio de cura e protege a energia vital da pessoa."
+                }
+            ],
+            "Defesa": [
+                {
+                    "Zerudo": "Kolulu cria uma aura em volta dela que protege dos ataques."
+                }
+            ],
+            "Assistencia": [
+                {
+                    "Zeruk": "Kolulu ganha uma forma violenta e mais poderosa que ataca com garras afiadas."
+                }
+            ]
+        },
+        "Tia": {
+            "BookColor": "Laranja-Avermelhado",
+            "type": "Amor/Escudos",
+            "Ataque": [
+                {
+                    "Saisu": "Tia solta um bumerangue de energia."
+                },
+                {
+                    "Chaajiru Saifodon": "O poder de ataque mais forte de Tia, onde ela cria uma espada com uma deusa no topo que segura a espada. Quanto maior for a raiva de Tia mais poderoso fica. Causa um dano enorme."
+                },
+                {
+                    "Giga La Seoshi/Giga ra Seushiru": "Tia cria um Seushiru em volta de seu inimigo, fazendo com que os ataques de seu inimigo voltem contra ele."
+                },
+                {
+                    "Gigano Saisu": "Tia solta um saisu maior e mais forte de sua mão."
+                },
+                {
+                    "Barudo Forusu": "Tia, Kanchomé e Ponygon dão força a Zatch e ele se manifesta como uma Fênix gigante feita de eletricidade, a magia deve ser pronunciada ao mesmo tempo por Kiyo, Megumi, Folgore e Kafk para funcionar"
+                }
+            ],
+            "Defesa": [
+                {
+                    "Seoshi": "Tia cria um escudo em forma de capsula que protege de todos os lados, menos embaixo."
+                },
+                {
+                    "Ma Seshield": "É criado um escudo que protege Tia e Megumi."
+                },
+                {
+                    "Chaajiru Seshirudon": "Um dos feitiços mais poderosos da Tia de defesa , Tia Cria um 'Ma Seshield' formado por três deuses que, quanto mais pessoas Tia quer proteger, maior o escudo."
+                },
+                {
+                    "Rima Chaajiru Seshirudon": "O poder mais forte de Tia. Tia controla 2 escudos gigantes iguais ao Chajiru Seshirudo via a um par de mãos espirituais."
+                }
+            ],
+            "Assistencia": [
+                {
+                    "Saifogeo": "Tia cria uma espada da cura."
+                },
+                {
+                    "Shin Saifogeo": "Uma versão mais forte do Saifojio. Cria um Saifojio de quatro espadas gigantes"
+                }
+            ]
+        },
+        "Zatch": {
+            "BookColor": "Vermelho",
+            "type": "Relâmpago",
+            "Ataque": [
+                {
+                    "Zakeru": "Gash dispara um poderoso raio de sua boca, forte o suficiente para acabar com pedras, como tijolos. Um zakeru pode machucar pessoas. Essa é a sua magia mais básica,tambem pode fazer uma esfera de energia."
+                },
+                {
+                    "Baao Zakeruga": "Um dos ataques mais fortes Zatch, consiste de um enorme dragão feito de relâmpagos que destrói um alvo com suas garras enormes. Mais adiante na série, a força desta magia aumenta assim como sua aparência muda"
+                },
+                {
+                    "Zakeruga": "A forma mais concentrada do Zakeru, essa magia é disparada em um raio rápido, em linha reta. Após este ataque ser adquirido, Gash e Kiyomaru substituem o Zakeru por ele."
+                },
+                {
+                    "Zaguruzemu": "Magia que golpeia com eletricidade. Ele toma a forma de uma esfera de luz. Quando um ataque é lançado, a eletricidade armazenada explode e aumenta o poder de qualquer magia elétrica feita por Kiyomaru e Gash"
+                },
+                {
+                    "Baou Kurou Disugurugu": "Gash convoca uma imensa mão semelhante à do dragão da magia 'Baou Zakeruga em sua forma mais poderosa' e ataca seu inimigo com ela. Gash controla a mão com a sua própria mão. É outro ataque onde ele não perde a consciência após usar."
+                },
+                {
+                    "Ganreizu Zakeru": "8 armas redondas flutuantes são invocadas, permitindo que várias pequenas explosões de raios sejam atiradas."
+                },
+                {
+                    "Teozakeru": "Uma versão mais poderosa de Zakeruga. Após este ataque ser adquirido, Gash e Kiyomaru substituem o Zakeruga por ele.(Ataque)"
+                },
+                {
+                    "Maazu Jikerudon": "Esfera elétrica que tem a capacidade de desviar ataques inimigos. Quando ela entra em contato com o inimigo, ela o puxa para dentro e os eletrocuta."
+                },
+                {
+                    "Ekuseresu Zakeruga": "Uma grande massa de energia sob a forma de uma seta gigantesca."
+                },
+                {
+                    "Jiou Renzu Zakeruga": "Um dragão enorme que é semelhante ao Baou Zakeruga, mas se parece mais com uma cobra, tem diamantes decorando seu corpo e a cabeça tem quatro lados. Ele dispara mini-torres elétricas"
+                },
+                {
+                    "Shin Beruwan Bao Zakeruga": "O mais forte ataque de Gash. Invoca um dragão de relâmpago colossal com várias cabeças, pontos salientes em seu pescoço e as garras gigantescas semelhantes à do Baou Kurou Disugurugu. O dragão pode basicamente devorar o alvo com suas presas. Embora a magia de nível Shin , o seu poder, talvez, obriga um nível de seus próprios donos."
+                },
+                {
+                    "Barudo Forusu": "Gash recebe poder de Tio, Kanchome e Umagon e esse poder é lançado como uma grande fênix de eletricidade, que é similar ao Bao Zakeruga. O feitiço deve ser dito por Kiyomaru, Megumi, Folgore e Kafk simultaneamente."
+                }
+            ],
+            "Defesa": [
+                {
+                    "Rashirudo": "Cria uma parede gigante que protege Gash e Kiyo e que pode refletir os ataques de volta para o inimigo. Se Kiyomaru lê o feitiço de novo, o Rashirudo existente dobra de tamanho."
+                }
+            ],
+            "Assistencia": [
+                {
+                    "Jikerudo": "Cria uma esfera em movimento lento, que magnetiza o oponente a qualquer objeto metálico. Não é frequentemente utilizado porque exige objetos metálicos, mas quando se pode usar, esta magia proporciona a Gash e Kiyomaru uma vantagem considerável."
+                },
+                {
+                    "Rauzaruku": "Um relâmpago ataca Gash e amplifica todas as habilidades físicas dele por um determinado período de tempo. Este é um dos feitiços que permite que Gash permaneça consciente, o que torna um valioso poder tático, no entanto, outras magias não pode ser usadas em sua duração, algo que Kiyomaru aprende da maneira mais difícil durante sua batalha com patie e ururu."
+                }
+            ]
+        }
+    }
+]

@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import  { AppM }  from './styles.js'
+import CardMamodoData from './components/cardMamodo'
+import MamodoView from './components/MamodoView/'
 
 function App() {
   return (
-    <div className="App">
+    <AppM>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <CardMamodoData name="Zatch" desc="Zatch é da boa" img="https://cdn.anisearch.com/images/anime/screen/8/8822/full/354097.jpg" adress="https://www.colorhexa.com/d73a49"></CardMamodoData> */}
+        <MamodoView></MamodoView>
       </header>
-    </div>
+    </AppM>
   );
 }
 
