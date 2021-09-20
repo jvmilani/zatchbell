@@ -1,18 +1,31 @@
 import styled from "styled-components";
 
-export const CardMamodo = styled.div`
-    width:300px;
-    height: 500px;
+export const View = styled.div`
+    width: 0%;
 
-    backdrop-filter: blur(16px) saturate(180%);
-    -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(227, 48, 48, 0.75);
-    border-radius: 12px;
-    border: 2px solid rgba(255, 0, 0, 0.25);
-
+    height: 100vh;
+    overflow-x: hidden;
     padding: 20px;
     display: flex;
+    align-items: center;
+    margin: 20px
+`
+
+export const CardMamodo = styled.div`
+    width: 300px;
+    height: 500px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: ${(props) => props.color};
+    border-radius: 4px;
+    border: 2px solid rgba(40, 40, 40, 0.25);
+
+    padding: 20px;
+    margin: 20px;
+
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 `
 
@@ -38,6 +51,14 @@ export const DescMamodo = styled.text`
     font-style: italic;
     color: #e3e3e3;
 `
+
+export const powersList = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+`
+
 export const LinkMamodo = styled.a`
     width: 150px;
     height: 40px;
@@ -60,7 +81,11 @@ export const PowersMamodo = styled.div`
         font-weight: bold;
         color: #404040;
     }
+    ul{
+        text-decoration: none;
+    }
     p{
+        text-align: center;
         font-size:14px;
         color: #404040;
     }
