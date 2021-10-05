@@ -6,6 +6,7 @@ export default function MamodoView() {
 
         <View color={mamodo.rgb}>
             <LeftSide>
+                <img src="https://cdn.anisearch.com/images/anime/screen/8/8822/full/354097.jpg" alt="" />
                 <h2>{mamodo.name}</h2>
                 <h3>{mamodo.type}</h3>
                 <p>{mamodo.BookColor}</p>
@@ -33,11 +34,6 @@ export default function MamodoView() {
         </View>
     );
 
-    // console.log(mamodo);
-    // const powers = ['Zaker', 'Rashield', 'Jikerdo', 'Bao Zakeruga', 'Zakeruga'];
-    // const powersView = powers.map((power) => 
-    //     <p>{power}</p>
-    // );
     return (
         [mamodo]
     )
