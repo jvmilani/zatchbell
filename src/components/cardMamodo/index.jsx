@@ -4,50 +4,27 @@ import {
   DescMamodo,
   ImageMamodo,
   LinkMamodo,
-  PowersMamodo,
-  PowersList,
 } from "./styles.js";
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  Switch,
-  useParams,
-} from "react-router-dom";
+import { BrowserRouter as Route, Link, Switch } from "react-router-dom";
 import Mamodo from "../Mamodo/";
 import mamodos from "../MamodoView/mamodos.json";
 
 export default function CardMamodoData() {
   return mamodos.map((mamodo) => (
-    <CardMamodo color={mamodo.rgb}>
-      <ImageMamodo>
+    <CardMamodo color={mamodo.rgba} border={mamodo.rgb}>
+      <ImageMamodo border={mamodo.rgb}>
         <img
-          src="https://cdn.anisearch.com/images/anime/screen/8/8822/full/354097.jpg"
+          src={
+            mamodo.img ??
+            "https://cdn.anisearch.com/images/anime/screen/8/8822/full/354097.jpg"
+          }
           alt="mamodo"
         />
       </ImageMamodo>
-      <NameMamodo>{mamodo.name}</NameMamodo>
-      <DescMamodo>{mamodo.type}</DescMamodo>
-      <PowersMamodo>
-        <h2>Powers</h2>
-        <p>
-          <ul>
-            {Object.keys(mamodo.Ataque)
-              .slice(0, 3)
-              .map((key) => {
-                const namePower = key;
-                const listPowers = (
-                  <PowersList>
-                    <p>{namePower}</p>
-                  </PowersList>
-                );
-                return listPowers;
-              })}
-          </ul>
-        </p>
-      </PowersMamodo>
-      <LinkMamodo href="" target="_blank" value="+ More info">
-        <Link to={`/mamodo/${mamodo.name}`}>+ Sobre {mamodo.name} </Link>
+      <NameMamodo border={mamodo.rgb}>{mamodo.name}</NameMamodo>
+      <DescMamodo color={mamodo.rgb}>{mamodo.type}</DescMamodo>
+      <LinkMamodo href={`/mamodo/${mamodo.name}`} btncolor={mamodo.rgb}>
+        + Sobre {mamodo.name}
       </LinkMamodo>
       <Switch>
         <Route exact path="mamodo/">

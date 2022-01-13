@@ -1,29 +1,22 @@
-import { AppM, View } from "./styles.js";
+import { AppM, View, Home, HomeButton, HomeText } from "./styles.js";
 import CardMamodoData from "./components/cardMamodo";
-import mamodos from "./components/Mamodo/mamodos";
-import { LeftSide, RightSide, powersList } from "./components/Mamodo/styles";
-
-import MamodoView from "./components/MamodoView/";
+import logo from "./img/Zb_logo.png";
 import Mamodo from "./components/Mamodo/";
 
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  Switch,
-  useParams,
-  useRouteMatch,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 export default function App() {
-  const Home = CardMamodoData;
   return (
     <Router>
       <AppM>
         <View>
           <Switch>
             <Route exact path="/">
-              <MamodoView />
+              <Home>
+                <img src={logo} alt="Mamodo" />
+                <HomeText>⚡ Welcome to Zatchbell ⚡</HomeText>
+                <HomeButton href="/mamodo/">Zaker ⚡</HomeButton>
+              </Home>
             </Route>
             <Route exact path="/mamodo/">
               <CardMamodoData />

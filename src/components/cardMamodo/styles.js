@@ -12,19 +12,16 @@ export const View = styled.div`
 
 export const CardMamodo = styled.div`
   width: 300px;
-  height: 500px;
+  height: 600px;
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: ${(props) => props.color};
   border-radius: 4px;
-  border: 2px solid rgba(40, 40, 40, 0.25);
-
-  padding: 20px;
-  margin: 20px;
-
+  border: 2px solid ${(props) => props.border};
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 `;
 
@@ -32,9 +29,10 @@ export const ImageMamodo = styled.div`
   width: 250px;
   height: 250px;
   img {
+    border: 2px solid ${(props) => props.border};
     border-radius: 50%;
-    height: 100%;
-    width: 100%;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
   }
 `;
@@ -42,13 +40,18 @@ export const ImageMamodo = styled.div`
 export const NameMamodo = styled.text`
   font-size: 24px;
   font-weight: bold;
-  color: #9e9e9e;
+  color: #404040;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: ${(props) => props.border};
 `;
 
 export const DescMamodo = styled.text`
   font-size: 14px;
   font-style: italic;
-  color: #e3e3e3;
+  color: ${(props) => props.color};
+  background-color: #202020;
+  border-radius: 5px;
+  padding: 10px;
 `;
 
 export const PowersList = styled.div`
@@ -65,10 +68,11 @@ export const LinkMamodo = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #9e9e9e;
+  color: #606060;
+  font-weight: bold;
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(84, 23, 29, 1);
+  background-color: ${(props) => props.btncolor};
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.125);
 `;
