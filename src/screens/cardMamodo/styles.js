@@ -1,13 +1,17 @@
 import styled from "styled-components";
 
-export const View = styled.div`
-  width: 0%;
+export const ViewMamodo = styled.div`
+  // width: 0%;
   height: 100vh;
-  overflow-x: hidden;
+  justify-content: center;
+  overflow: hidden;
   padding: 20px;
   display: flex;
+  background-image: url("https://cdn.wallpapersafari.com/45/65/UMRiO7.jpg");
+  background-size: cover;
+  background-attachment: fixed;
   align-items: center;
-  margin: 20px;
+  // margin: 20px;
 `;
 
 export const CardMamodo = styled.div`
@@ -16,13 +20,14 @@ export const CardMamodo = styled.div`
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
   background-color: ${(props) => props.color};
-  border-radius: 4px;
+  border-radius: 5px;
   border: 2px solid ${(props) => props.border};
   margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  
 `;
 
 export const ImageMamodo = styled.div`
@@ -41,14 +46,12 @@ export const NameMamodo = styled.text`
   font-size: 24px;
   font-weight: bold;
   color: #404040;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: ${(props) => props.border};
 `;
 
 export const DescMamodo = styled.text`
   font-size: 14px;
   font-style: italic;
-  color: ${(props) => props.color};
+  color: #e5e5e5;
   background-color: #202020;
   border-radius: 5px;
   padding: 10px;

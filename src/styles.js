@@ -4,25 +4,32 @@ export const AppM = styled.div`
   margin: 0;
   padding: 0;
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
-  overflow-x: hidden;
+  overflow-y: hidden;
+  // overflow-x: hidden;
   justify-content: center;
   align-items: center;
   background-image: url("https://cdn.wallpapersafari.com/45/65/UMRiO7.jpg");
   background-size: cover;
+  // background-align:center;
   background-attachment: fixed;
 `;
 
 export const View = styled.div`
-  width: 95%;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // width: 95%;
+  // height: 100vh;
   padding: 20px;
   overflow-x: hidden;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: 20px;
+  background-image: url("https://cdn.wallpapersafari.com/45/65/UMRiO7.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 `;
 
 export const Home = styled.div`
@@ -42,6 +49,8 @@ export const Home = styled.div`
 
 export const HomeText = styled.text`
   margin: 30px;
+  width: 200px;
+  text-align: center;
   color: rgba(220, 30, 30);
   font-weight: 700;
   -webkit-text-stroke-width: 1px;

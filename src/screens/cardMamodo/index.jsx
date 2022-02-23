@@ -1,15 +1,8 @@
-import {
-  CardMamodo,
-  NameMamodo,
-  DescMamodo,
-  ImageMamodo,
-  LinkMamodo,
-} from "./styles.js";
-import { BrowserRouter as Route, Link, Switch } from "react-router-dom";
-import Mamodo from "../Mamodo/";
-import mamodos from "../MamodoView/mamodos.json";
+import {CardMamodo,  NameMamodo,  DescMamodo,  ImageMamodo,  LinkMamodo,} from "./styles.js";
+import mamodos from "../Mamodo/mamodos.json";
 
 export default function CardMamodoData() {
+  
   return mamodos.map((mamodo) => (
     <CardMamodo color={mamodo.rgba} border={mamodo.rgb}>
       <ImageMamodo border={mamodo.rgb}>
@@ -26,14 +19,6 @@ export default function CardMamodoData() {
       <LinkMamodo href={`/mamodo/${mamodo.name}`} btncolor={mamodo.rgb}>
         + Sobre {mamodo.name}
       </LinkMamodo>
-      <Switch>
-        <Route exact path="mamodo/">
-          <h3>Choose your mamodo</h3>
-        </Route>
-        <Route path="mamodo/:name">
-          <Mamodo />
-        </Route>
-      </Switch>
     </CardMamodo>
   ));
 }
