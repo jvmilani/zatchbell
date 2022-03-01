@@ -14,11 +14,13 @@ Install the dependencies and start the server.
 git clone https://github.com/jvmilani/zatchbell_mamodo
 ```
 ```sh
-npm install 
+npm install
+npm start
 ```
 _or_
 ```sh
 yarn install
+yarn start
 ```
 _and open in_
 
