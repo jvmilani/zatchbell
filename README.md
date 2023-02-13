@@ -29,7 +29,7 @@ http://localhost:3000
 ```
 ## Deploy
 
-- This app as deployed on [Heroku_Zatch](https://zatchbell.herokuapp.com)
+- This app as deployed on [Zatch](https://zatchbell.netlify.app/)
 
 ## License
 
